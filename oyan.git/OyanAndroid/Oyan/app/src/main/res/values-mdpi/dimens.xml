@@ -1,0 +1,31 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+
+
+
+    <dimen name="entryLogoMarginTop">90dp</dimen>
+    <dimen name="entrySignUpW">350dp</dimen>
+    <dimen name="entrySignUpmarginB">30dp</dimen>
+
+
+    <dimen name="friendImgH">92dp</dimen>
+    <dimen name="friendImgW">92dp</dimen>
+    <dimen name="friendImgMargin">10dp</dimen>
+    <dimen name="friendtextSize">30dp</dimen>
+    <dimen name="friendtextSize2">15dp</dimen>
+
+    <dimen name="profilePhotoW">350dp</dimen>
+    <dimen name="profilePhotoH">350dp</dimen>
+    <dimen name="profilePhotoMargin">30dp</dimen>
+    <dimen name="profileTextMarginBot">90dp</dimen>
+
+    <dimen name="alarmTextMarginLeft">16dp</dimen>
+    <dimen name="alarmTextHeight">40dp</dimen>
+    <dimen name="alarmTextSize">30dp</dimen>
+
+    <dimen name="addAlarmTimeH">200dp</dimen>
+    <dimen name="addAlarmButton">35dp</dimen>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/editProfile"
+        android:icon="@drawable/ic_action_name17"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/savelProfile"
+        android:icon="@drawable/ic_action_name20"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:visible="false" />
+    <item
+        android:id="@+id/cancelProfile"
+        android:icon="@drawable/ic_action_name10"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        android:visible="false" />
+</menu>

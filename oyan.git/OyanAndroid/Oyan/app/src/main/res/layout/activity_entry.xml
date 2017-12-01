@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutEntry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:background="@drawable/bg2"
+    android:scaleType="centerCrop"
+    tools:context=".EntryActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/logo" />
+
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="@dimen/entrySignUpW"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signUp"
+        android:layout_centerHorizontal="true"
+        android:background="@xml/button_background"
+        android:gravity="center"
+        android:onClick="login"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textColor="#c8000000" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="@dimen/entrySignUpW"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/entrySignUpmarginB"
+        android:layout_marginTop="16dp"
+        android:background="@xml/button_background"
+        android:gravity="center"
+        android:onClick="registration"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textColor="#c8000000" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/logo"
+        android:layout_alignLeft="@+id/logo"
+        android:layout_alignRight="@+id/logo"
+        android:layout_alignStart="@+id/logo"
+        android:layout_below="@+id/logo"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Oyan"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+
+</RelativeLayout>

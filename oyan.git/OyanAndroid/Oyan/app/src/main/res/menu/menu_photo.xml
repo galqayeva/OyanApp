@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.oyan.Activities.Photo">
+    <item
+        android:id="@+id/editPhotoR"
+        android:icon="@drawable/ic_action_name21"
+        android:orderInCategory="1"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/rotatePhotoR"
+        android:icon="@drawable/ic_action_name13"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:visible="false" />
+    <item
+        android:id="@+id/savePhotoR"
+        android:icon="@drawable/ic_action_name20"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:visible="false" />
+    <item
+        android:id="@+id/cancelPhotoR"
+        android:icon="@drawable/ic_action_name10"
+        android:orderInCategory="4"
+        android:showAsAction="always"
+        android:visible="false" />
+    <item
+        android:id="@+id/skipPhotoR"
+        android:icon="@drawable/ic_action_arrow_right"
+        android:orderInCategory="5"
+        android:showAsAction="always"
+        android:visible="true" />
+</menu>

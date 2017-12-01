@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_alarm"
+                android:icon="@drawable/ic_action_name"
+                android:title="Alarms" />
+            <item
+                android:id="@+id/nav_sleepies"
+                android:icon="@drawable/registrationlogo"
+                android:title="Sleepies" />
+            <item
+                android:id="@+id/nav_friend"
+                android:icon="@drawable/ic_people"
+                android:title="Friends" />
+
+        </group>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_action_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_Setting"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_action_process_start"
+                android:title="Log out" />
+
+
+</menu>

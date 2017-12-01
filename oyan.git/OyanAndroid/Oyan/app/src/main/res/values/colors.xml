@@ -1,0 +1,25 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="google_red">#d62d20</color>
+    <color name="google_blue">#0057e7</color>
+    <color name="google_green">#008744</color>
+    <color name="google_yellow">#ffa700</color>
+    <color name="dark">#FF222222</color>
+    <color name="light">#FFEEEEEE</color>
+    <color name="pressed_color">#B8F2F5</color>
+    <color name="default_color">#E8FEFF</color>
+    <color name="actionBarColor">#0055a7</color>
+    <color name="actionbar_background">#0055a7</color>
+    <color name="actionbar_text">#FFFFFF</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#e0044f</color>
+    <color name="colorHead">#363147</color>
+    <color name="colorpara">#8b8a8d</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorFAB1">#2196F3</color>
+    <color name="colorFAB2">#E040FB</color>
+</resources>

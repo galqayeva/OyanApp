@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img1"
+        android:layout_width="@dimen/friendImgW"
+        android:layout_height="@dimen/friendImgH"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/friendImgMargin"
+        android:src="@drawable/userph" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img1"
+        android:layout_toEndOf="@+id/img1"
+        android:layout_toLeftOf="@+id/makeCall1"
+        android:layout_toRightOf="@+id/img1"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/friendtextSize" />
+
+    <TextView
+        android:id="@+id/textPlace1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_toEndOf="@+id/img1"
+        android:layout_toLeftOf="@+id/makeCall1"
+        android:layout_toRightOf="@+id/img1"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/friendtextSize2"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/makeCall1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/text1"
+        android:padding="@dimen/friendImgMargin"
+        android:src="@drawable/callme" />
+
+    <TextView
+        android:id="@+id/userTime1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPlace1"
+        android:layout_toLeftOf="@+id/makeCall1"
+        android:layout_toRightOf="@+id/img1"
+        android:layout_toStartOf="@+id/makeCall1"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/friendtextSize2" />
+
+    <TextView
+        android:id="@+id/textSipUsername1"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/textId1"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/textSipRegistrar1"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/textWeekDay1"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/isActive1"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/userTime1"
+        android:layout_alignRight="@+id/userTime1"
+        android:layout_below="@+id/userTime1"
+        android:layout_toRightOf="@+id/img1"
+        android:maxLines="3"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/friendtextSize2" />
+</RelativeLayout>
